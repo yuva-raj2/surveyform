@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightskyblue;
+    color: violet;
+}
+.main-content{
+    margin: 5rem 2rem 1rem 1rem;
+}
+.survey-report{
+    background-color: rebeccapurple;
+    padding: 2rem 2rem 2rem 15rem;
+}
+.survey{
+    display: flex;
+    flex-direction: column;
+    font-family:monospace;
+    font-style: normal;
+}
+.survey h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 1rem;
+}
+.survey h3{
+    font-size: 30px;
+    word-spacing: 20px;
+    font-weight: 800;
+    margin-top:0.5rem;
+}
+.start{
+    margin-top: 0.5rem;
+    text-decoration: unset;
+    background-color: darkturquoise;
+    color: hotpink;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: unset;
+    margin-left: 15rem;
+}
+.start-btn a:hover{
+    color:mintcream;
+    background-color:magenta;
+}
+.survey2,.survey3,.survey4,.survey5,.survey6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    display: none;
+}
+.survey-opt-btn button,.survey-opt-btn-2 button,.survey-opt-btn-3 button,.survey-opt-btn-4 button,.survey-next-pre-1 button,.survey-next-pre-2 button,.survey-next-pre-3 button,.survey-next-pre-4 button,.next-5,.prev-5{
+    border-style: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+    flex-direction:column;
+    margin-left: 2rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius:50px;
+}
+.survey-opt-btn button:hover,.survey-opt-btn-2 button:hover,.survey-opt-btn-3 button:hover,.survey-opt-btn-4 button:hover,.prev-1:hover,.prev-2:hover,.prev-3:hover,.prev-4:hover{
+    background-color:blue;
+    color: white;
+    animation: 1s ease;
+}
+.survey-opt-btn button:active,.survey-opt-btn-2 button:active,.survey-opt-btn-3 button:active,.survey-opt-btn-4 button:active,.next-1:hover,.next-2:hover,.next-3:hover,.next-4:hover{
+    background-color:green;
+}
+.survey2 h3,.survey3 h3,.survey4 h3,.survey5 h3,.survey6 h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.check-10-1{
+    margin-top: 1rem;
+}
+.survey-next-pre-1 button,.survey-next-pre-2 button,.survey-next-pre-3 button,.survey-next-pre-4 button,.survey-next-pre-5 button{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.next-1:active,.next-2:active,.next-3:active,.next-4:active,.next-5:active{
+    background-color: darkslateblue;
+    color:blue;
+}
+.next-5:hover{
+    background-color: green;
+}
+.prev-1:active,.prev-2:hover,.prev-3:hover,.prev-4:hover,.prev-5:hover{
+    background-color: indigo;
+    color: dimgrey;
+}
+.thankyou{
+    display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: initial;
+}
+@media screen and (max-width:1016px) {
+    .start{
+        margin-left: 5rem;
+      }
+}
+@media screen and (max-width:920px) {
+    .survey-report{
+        padding: 0rem 2rem 2rem 5rem;
+    }
+}
+@media screen and (max-width:755px) {
+    .survey h1{
+        font-size:20px;
+    }
+    .survey h3{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:692px){
+    .start{
+        margin-left: 0rem;
+      }   
+}
+@media screen and (max-width:663px) {
+    .survey-report{
+        padding: 0rem 2rem 2rem 2rem;
+    }
+}
+@media screen and (max-width:619px) {
+    .survey h1{
+        margin-left: 0rem;
+ }
+}
+@media screen and (max-width:599px) {
+    .survey-report{
+        padding: 0rem 2rem 2rem 5rem;
+    }
+}
